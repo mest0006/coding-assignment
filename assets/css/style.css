@@ -6,10 +6,11 @@ html {
 
 body {
   padding-top: 54px;
-  margin-bottom: 100px; /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  /* Margin bottom by footer height */
 }
 
-.solution_header{
+.solution_header {
   font-size: 2rem;
   margin-bottom: .5rem;
   font-family: inherit;
@@ -18,12 +19,12 @@ body {
   color: inherit;
 }
 
-.tasks_group{
+.tasks_group {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.task_header{
+.task_header {
   margin-top: 15px;
   font-size: 1.25em;
   margin-bottom: .5rem;
@@ -33,25 +34,25 @@ body {
   color: inherit;
 }
 
-.task{
+.task {
   font-size: 16px;
   margin: 10px 20px;
 }
 
-.hints{
+.hints {
   font-size: 12px;
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
-.header_exercise{
+.header_exercise {
   margin-bottom: 25px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.flag-icon{
+.flag-icon {
   margin-right: 10px;
 }
 
@@ -59,17 +60,19 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
   background-color: #f5f5f5;
 }
 
-.fa-1x5{
+.fa-1x5 {
   font-size: 1.5em !important;
   margin-right: 5px;
 }
 
-.solution{
+.solution {
   margin-top: 25px;
 }
 
@@ -78,4 +81,8 @@ body {
   body {
     padding-top: 56px;
   }
+}
+
+.card-footer {
+  color: purple;
 }
